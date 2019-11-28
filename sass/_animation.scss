@@ -1,0 +1,37 @@
+@keyframes pulse {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+.navbar__item:hover .animationdromp{
+    display: block;
+    animation: pulse 1s; 
+}
+.left{
+  display: none;
+}
+
+.navbar__item:hover .left,
+.navbar__item:active .left{
+  display: block;
+}
+.navbar__item:hover .right,
+.navbar__item:active .right{
+  display: none;
+}
+
+////// animiaiton for dropn down
+
+// @keyframes myanimation {
+//   0%   {
+//     margin-left: -100rem;
+//   }
+
+//   100% {
+//     margin-left: 17rem;
+//   }
+// }

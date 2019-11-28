@@ -1,0 +1,72 @@
+// Primary: #eb2f64
+// Primary light: #FF3366
+// Primary dark: #BA265D
+
+// Grey light 1: #faf9f9
+// Grey light 2: #f4f2f2
+// Grey light 3: #f0eeee
+// Grey light 4: #ccc
+
+// Grey dark 1: #333
+// Grey dark 2: #777
+// Grey dark 3: #999
+
+:root{
+    --color-primary:#eb2f64;
+    --color-primary-light:#FF3366;
+    --color-primary-dark:#BA265D;
+    --Primary-dark: #BA265D;
+
+    --Grey-light-1: #faf9f9;
+    --Grey-light-2: #f4f2f2;
+    --Grey-light-3: #f0eeee;
+    --Grey-light-4: #ccc;
+
+    --Grey-dark-1: #333;
+    --Grey-dark-2: #777;
+    --Grey-dark-3: #999;
+    --shadow-dark: 0 2rem 6rem rgba(0,0,0,.3);
+
+
+}
+
+$bp-largest:75rem; //1200
+$bp-large:68.75rem; //1100
+$bp-below-large:62.5rem; //1000
+$bp-medium:56.25rem; //900
+$bp-small:37.5rem; //600
+$bp-smallest:31.25rem; // 500px
+$iphonex:23.5rem;
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; // 1rem =10px 10px/16px=62.5%
+
+   
+
+   
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    background-color: #f3f3f3;
+    color: var(--Grey-dark-2);
+
+   height: 10rem;
+
+
+}
