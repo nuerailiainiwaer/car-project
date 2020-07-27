@@ -1,502 +1,516 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
-        <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
-        
-        <title>My car Collections</title>
-    </head>
-    <body>
 
-        <li id="dropdownbar" class="dropdownmen"> 
-            <svg class="dropdownmen--icon">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+
+    <title>My car Collections</title>
+</head>
+
+<body>
+
+    <li id="dropdownbar" class="dropdownmen">
+        <svg class="dropdownmen--icon">
             </svg>
-            <input type="checkbox" class="dropdownmen__checkbox" id="navi-toggle">
-            <label for="navi-toggle" class="dropdownmen__button">
+        <input type="checkbox" class="dropdownmen__checkbox" id="navi-toggle">
+        <label for="navi-toggle" class="dropdownmen__button">
                <span class="dropdownmen__button-icon"></span>
             </label>
-            <div class="dropdownmen__background"></div>
-            <div class="sidebar">
-                <ul class="sidebar__ul">
-                        <li class="sidebar__li"><a class="sidebar__link" href="#">Home</a></li>
-                        <li class="sidebar__li"><a class="sidebar__link" href="#">About US</a></li>
-                        <li class="sidebar__li"><a class="sidebar__link" href="#">Contact US</a></li>
-                        <li class="sidebar__li"><a class="sidebar__link" href="#">Profolio</a></li>
-                        <li class="sidebar__li"><a class="sidebar__link" href="#">Office</a></li>
-                </ul>
-            </div>
-        </li>
+        <div class="dropdownmen__background"></div>
+        <div class="sidebar">
+            <ul class="sidebar__ul">
+                <li class="sidebar__li"><a class="sidebar__link" href="#">Home</a></li>
+                <li class="sidebar__li"><a class="sidebar__link" href="#">About US</a></li>
+                <li class="sidebar__li"><a class="sidebar__link" href="#">Contact US</a></li>
+                <li class="sidebar__li"><a class="sidebar__link" href="#">Profolio</a></li>
+                <li class="sidebar__li"><a class="sidebar__link" href="#">Office</a></li>
+            </ul>
+        </div>
+    </li>
 
-        <div class="warapper"> 
+    <div class="warapper">
 
-            <div class="heade">
-                <ul class="navbar">
-                        <li class="navbar__item navbar__mycollection">
-                                <a href="#" class="navbar__link navbar__collect">
-                                        <span>My Collection</span>
-                                        <img class="navbar__link__logo" src="img/car.png">
-                                </a>
-                        </li>
-                        <li class="navbar__item">
-                                <a href="#"  class="navbar__link--flex">
-                                        
-                                        <span>Brands</span>
-                                        <svg  class="navbar__link__icon right">
+        <div class="heade">
+            <ul class="navbar">
+                <li class="navbar__item navbar__mycollection">
+                    <a href="#" class="navbar__link navbar__collect">
+                        <span>My Collection</span>
+                        <img class="navbar__link__logo" src="img/car.png">
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#" class="navbar__link--flex">
+
+                        <span>Brands</span>
+                        <svg class="navbar__link__icon right">
                                                 <use id="navbar__link__icon-xlink" xlink:href="img/myicon.svg#icon-chevron-thin-down"></use>
                                         </svg>
-                                        <svg  class="navbar__link__icon left">
+                        <svg class="navbar__link__icon left">
                                                 <use id="navbar__link__icon-xlink" xlink:href="img/myicon.svg#icon-chevron-thin-up"></use>
                                         </svg>
-                                </a>
+                    </a>
 
-                                <div class="dropdown animationdromp">
+                    <div class="dropdown animationdromp">
 
-                                        <div class="dropdown--brand">
-                                                <img src="img/maclaren.png" alt="" class="dropdown--brand__photo">
-                                                <img src="img/cheverlot.png" alt="" class="dropdown--brand__photo">
-                                                <img src="img/donkervoort.png" alt="" class="dropdown--brand__photo">
-                                                <img src="img/fara.png" alt="" class="dropdown--brand__photo">
-                                                <img src="img/lada.png" alt="" class="dropdown--brand__photo">
-                                                <img src="img/lanbogini.png" alt="" class="dropdown--brand__photo">
-                                        </div>
-                                </div>
-                        </li>
-                    <li id="navbar__item-collection" class="navbar__item">
-                            <a href="#" class="navbar__link--flex">
-                                
-                                <span>My Collections</span>
-                                <svg  class="navbar__link__icon right">
-                                        <use id="navbar__link__icon-xlink" xlink:href="img/myicon.svg#icon-chevron-thin-down"></use>
-                                </svg>
-                                <svg  class="navbar__link__icon left">
-                                        <use id="navbar__link__icon-xlink" xlink:href="img/myicon.svg#icon-chevron-thin-up"></use>
-                                </svg>
-                            </a>
-
-                            <div class="dropcolle animationdromp">
-                                <div class="container">
-                                        <ul class="container__sidebar">
-                                                
-                                                <li id="maclabutton" >
-                                                        <a href="#" class="sidebar__link">McLaren</a>
-                                                </li>
-
-                                                <li id="lanbobutton">
-                                                        <a href="#" class="sidebar__link">Lamborghini</a>
-                                                </li>
-
-                                                <li id="chevbutton">
-                                                        <a href="#" class="sidebar__link">Chevrolet</a>
-                                                </li>
-
-                                                <li id="donkebutton">
-                                                        <a href="#" class="sidebar__link">Donkervoort</a>
-                                                </li>
-
-                                                <li id="ferraibutton">
-                                                        <a href="#" class="sidebar__link">ferrari</a>
-                                                </li>
-
-                                                <li id="ladabutton">
-                                                        <a href="#" class="sidebar__link">Lada</a>
-                                                </li>
-                                        
-                                        </ul>
-                                        <!-- for maclaren -->
-
-                                        <div id="mclaren" class="container__button" >
-                                            <div class="sidecontai">
-                                                <div class="sidecontai__box">
-
-                                                    <img src="img/maclaren-car.png" alt="" class="sidecontai__box-photo">
-                                                     <div class="">
-                                                            McLaren 720S
-                                                     </div>
-                                                     
-                                                     <div class="">
-                                                                <button class="btn">Explore</button>
-                                                     </div>
-
-                                                </div>
-
-                                                <div class="sidecontai__box">
-
-                                                    <img src="img/maclaren-car1.png" alt="" class="sidecontai__box-photo">
-                                                    <div class="">
-                                                        McLaren 570S
-                                                    </div>
-
-                                                    <div class="">
-                                                            <button class="btn">Explore</button>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                        <!-- for lanbo -->
-                                        <div id="lanbo" class="container__button" >
-                                           <div class="sidecontai">
-                                                <div class="sidecontai__box">
-
-                                                        <img src="img/lanborgini-car.png" alt="" class="sidecontai__box-photo">
-                                                        <div class="">
-                                                                Lamborghini Aventador
-                                                        </div>
-                                                        <div class="">
-                                                                <button class="btn">Explore</button>
-                                                        </div>
-                                                </div>
-
-                                                <div class="sidecontai__box">
-
-                                                        <img src="img/lanborgini-car2.png" alt="" class="sidecontai__box-photo">
-                                                        <div class="">
-                                                                Lamborghini Urus
-                                                        </div>
-
-                                                        <div class="">
-                                                                <button class="btn">Explore</button>
-                                                        </div>
-                                                </div>
-
-                                            </div> 
-                                        </div>
-                                        <!-- for chev -->
-
-                                        <div id="chev" class="container__button" >
-                                            <div class="sidecontai">
-                                                <div class="sidecontai__box">
-
-                                                        <img src="img/lanborgini-image3.png" alt="" class="sidecontai__box-photo">
-
-                                                        <div class="">
-                                                        Corvette ZR1
-                                                        </div>
-
-                                                        <div class="">
-                                                        <button class="btn">Explore</button>
-                                                        </div>
-                                                </div>
-                
-                                                <div class="sidecontai__box">
-                                                        <img src="img/cheverlot5.png" alt="" class="sidecontai__box-photo">
-                                                        <div class="">
-                                                        Corvette ZR1
-                                                        </div>
-
-                                                        <div class="">
-                                                        <button class="btn">Explore</button>
-                                                        </div>
-                                                </div>
-                                             </div> 
-                                        </div>
-
-                                        <!-- for donke -->
-                                        <div id="donke" class="container__button" >
-                                            <div class="sidecontai">
-                                              <div class="sidecontai__box">
-
-                                                <img src="img/don.png" alt="" class="sidecontai__box-photo">
-
-                                                
-                                                <div class="">
-                                                        Donkervoort S7
-                                                </div>
-                                                
-                                                <div class="">
-                                                        <button class="btn">Explore</button>
-                                                </div>
-                                              </div>
-        
-                                              <div class="sidecontai__box">
-                                                <img src="img/don6.png" alt="" class="sidecontai__box-photo">
-
-                                                
-                                                <div class="">
-                                                        Donkervoort S8/S8A
-                                                </div>
-
-                                                <div class="">
-                                                        <button class="btn">Explore</button>
-                                                </div>
-                                              </div>
-                                            </div> 
-                                        </div>
-
-                                        <!-- for ferrari button -->
-                                        <div id="ferrari" class="container__button" >
-                                                <div class="sidecontai">
-                                                   <div class="sidecontai__box">
-
-                                                        <img src="img/fara1.png" alt="" class="sidecontai__box-photo">
-                                                        <div class="">
-                                                                Ferrari 488 GTB
-                                                        </div>
-                                                        
-                                                        <div class="">
-                                                                <button class="btn">Explore</button>
-                                                        </div>
-                                                   </div>
-                
-                                                   <div class="sidecontai__box">
-                                                        <img src="img/fara3.png" alt="" class="sidecontai__box-photo">
-                                                        
-                                                        <div class="">
-                                                                Ferrari Portofino
-                                                        </div>
-        
-                                                        <div class="">
-                                                                <button class="btn">Explore</button>
-                                                        </div>
-                                                   </div>
-                                                </div> 
-                                        </div>
-
-                                        <!-- for lada button -->
-                                        <div id="lada" class="container__button" >
-                                                <div class="sidecontai">
-                                                   <div class="sidecontai__box">
-                                                        <img src="img/lada-car-1.png" alt="" class="sidecontai__box-photo">
-                                                        
-                                                        <div class="">
-                                                                Granta liftback
-                                                        </div>
-                                                                <div class="">
-                                                                <button class="btn">Explore</button>
-                                                        </div>
-                                                   </div>
-                
-                                                   <div class="sidecontai__box">
-                                                        <img src="img/lada6.png" alt="" class="sidecontai__box-photo">
-                                                        
-                                                        <div class="">
-                                                                Granta sedan
-                                                        </div>
-        
-                                                        <div class="">
-                                                                <button class="btn">Explore</button>
-                                                        </div>
-                                                   </div>
-                                                </div> 
-                                        </div>
-                                </div>
+                        <div class="dropdown--brand">
+                            <img src="img/maclaren.png" alt="" class="dropdown--brand__photo">
+                            <img src="img/cheverlot.png" alt="" class="dropdown--brand__photo">
+                            <img src="img/donkervoort.png" alt="" class="dropdown--brand__photo">
+                            <img src="img/fara.png" alt="" class="dropdown--brand__photo">
+                            <img src="img/lada.png" alt="" class="dropdown--brand__photo">
+                            <img src="img/lanbogini.png" alt="" class="dropdown--brand__photo">
                         </div>
-                    </li>
-                    <li class="navbar__item">
-                        <a href="#" class="navbar__link--flex">
-                                <span>Classic Cars</span>
-                                <svg  class="navbar__link__icon right">
+                    </div>
+                </li>
+                <li id="navbar__item-collection" class="navbar__item">
+                    <a href="#" class="navbar__link--flex">
+
+                        <span>My Collections</span>
+                        <svg class="navbar__link__icon right">
+                                        <use id="navbar__link__icon-xlink" xlink:href="img/myicon.svg#icon-chevron-thin-down"></use>
+                                </svg>
+                        <svg class="navbar__link__icon left">
+                                        <use id="navbar__link__icon-xlink" xlink:href="img/myicon.svg#icon-chevron-thin-up"></use>
+                                </svg>
+                    </a>
+
+                    <div class="dropcolle animationdromp">
+                        <div class="container">
+                            <ul class="container__sidebar">
+
+                                <li id="maclabutton">
+                                    <a href="#" class="sidebar__link">McLaren</a>
+                                </li>
+
+                                <li id="lanbobutton">
+                                    <a href="#" class="sidebar__link">Lamborghini</a>
+                                </li>
+
+                                <li id="chevbutton">
+                                    <a href="#" class="sidebar__link">Chevrolet</a>
+                                </li>
+
+                                <li id="donkebutton">
+                                    <a href="#" class="sidebar__link">Donkervoort</a>
+                                </li>
+
+                                <li id="ferraibutton">
+                                    <a href="#" class="sidebar__link">ferrari</a>
+                                </li>
+
+                                <li id="ladabutton">
+                                    <a href="#" class="sidebar__link">Lada</a>
+                                </li>
+
+                            </ul>
+                            <!-- for maclaren -->
+
+                            <div id="mclaren" class="container__button">
+                                <div class="sidecontai">
+                                    <div class="sidecontai__box">
+
+                                        <img src="img/maclaren-car.png" alt="" class="sidecontai__box-photo">
+                                        <div class="">
+                                            McLaren 720S
+                                        </div>
+
+                                        <div class="">
+                                            <button class="btn">Explore</button>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="sidecontai__box">
+
+                                        <img src="img/maclaren-car1.png" alt="" class="sidecontai__box-photo">
+                                        <div class="">
+                                            McLaren 570S
+                                        </div>
+
+                                        <div class="">
+                                            <button class="btn">Explore</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- for lanbo -->
+                            <div id="lanbo" class="container__button">
+                                <div class="sidecontai">
+                                    <div class="sidecontai__box">
+
+                                        <img src="img/lanborgini-car.png" alt="" class="sidecontai__box-photo">
+                                        <div class="">
+                                            Lamborghini Aventador
+                                        </div>
+                                        <div class="">
+                                            <button class="btn">Explore</button>
+                                        </div>
+                                    </div>
+
+                                    <div class="sidecontai__box">
+
+                                        <img src="img/lanborgini-car2.png" alt="" class="sidecontai__box-photo">
+                                        <div class="">
+                                            Lamborghini Urus
+                                        </div>
+
+                                        <div class="">
+                                            <button class="btn">Explore</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- for chev -->
+
+                            <div id="chev" class="container__button">
+                                <div class="sidecontai">
+                                    <div class="sidecontai__box">
+
+                                        <img src="img/lanborgini-image3.png" alt="" class="sidecontai__box-photo">
+
+                                        <div class="">
+                                            Corvette ZR1
+                                        </div>
+
+                                        <div class="">
+                                            <button class="btn">Explore</button>
+                                        </div>
+                                    </div>
+
+                                    <div class="sidecontai__box">
+                                        <img src="img/cheverlot5.png" alt="" class="sidecontai__box-photo">
+                                        <div class="">
+                                            Corvette ZR1
+                                        </div>
+
+                                        <div class="">
+                                            <button class="btn">Explore</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- for donke -->
+                            <div id="donke" class="container__button">
+                                <div class="sidecontai">
+                                    <div class="sidecontai__box">
+
+                                        <img src="img/don.png" alt="" class="sidecontai__box-photo">
+
+
+                                        <div class="">
+                                            Donkervoort S7
+                                        </div>
+
+                                        <div class="">
+                                            <button class="btn">Explore</button>
+                                        </div>
+                                    </div>
+
+                                    <div class="sidecontai__box">
+                                        <img src="img/don6.png" alt="" class="sidecontai__box-photo">
+
+
+                                        <div class="">
+                                            Donkervoort S8/S8A
+                                        </div>
+
+                                        <div class="">
+                                            <button class="btn">Explore</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- for ferrari button -->
+                            <div id="ferrari" class="container__button">
+                                <div class="sidecontai">
+                                    <div class="sidecontai__box">
+
+                                        <img src="img/fara1.png" alt="" class="sidecontai__box-photo">
+                                        <div class="">
+                                            Ferrari 488 GTB
+                                        </div>
+
+                                        <div class="">
+                                            <button class="btn">Explore</button>
+                                        </div>
+                                    </div>
+
+                                    <div class="sidecontai__box">
+                                        <img src="img/fara3.png" alt="" class="sidecontai__box-photo">
+
+                                        <div class="">
+                                            Ferrari Portofino
+                                        </div>
+
+                                        <div class="">
+                                            <button class="btn">Explore</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- for lada button -->
+                            <div id="lada" class="container__button">
+                                <div class="sidecontai">
+                                    <div class="sidecontai__box">
+                                        <img src="img/lada-car-1.png" alt="" class="sidecontai__box-photo">
+
+                                        <div class="">
+                                            Granta liftback
+                                        </div>
+                                        <div class="">
+                                            <button class="btn">Explore</button>
+                                        </div>
+                                    </div>
+
+                                    <div class="sidecontai__box">
+                                        <img src="img/lada6.png" alt="" class="sidecontai__box-photo">
+
+                                        <div class="">
+                                            Granta sedan
+                                        </div>
+
+                                        <div class="">
+                                            <button class="btn">Explore</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="navbar__item">
+                    <a href="#" class="navbar__link--flex">
+                        <span>Classic Cars</span>
+                        <svg class="navbar__link__icon right">
                                         <use id="navbar__link__icon-xlink" xlink:href="img/myicon.svg#icon-chevron-thin-down"></use>
                                         
                                 </svg>
-                                <svg  class="navbar__link__icon left">
+                        <svg class="navbar__link__icon left">
                                         <use id="navbar__link__icon-xlink" xlink:href="img/myicon.svg#icon-chevron-thin-up"></use>
                                         
                                 </svg>
-                        </a>
-                    </li>
-                    <li class="navbar__item">
-                        <a href="#" class="navbar__link--flex">
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#" class="navbar__link--flex">
                         <span>Super Cars</span>
-                        <svg class="navbar__link__icon">
-                                <use xlink:href="img/symbol-defs.svg#icon-arrow-long-down"></use>
-                        </svg>
-                        </a>
-                    </li>
-                 </ul>
+                        <svg class="navbar__link__icon right">
+                                            <use id="navbar__link__icon-xlink" xlink:href="img/myicon.svg#icon-chevron-thin-down"></use>
+                                            
+                                    </svg>
+                        <svg class="navbar__link__icon left">
+                                            <use id="navbar__link__icon-xlink" xlink:href="img/myicon.svg#icon-chevron-thin-up"></use>
+                                            
+                                    </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- //////////next pic sliude starts -->
+
+
+
+
+    <div class="title">
+        <div class="title__slideshow-container">
+
+            <div class="mySlides fade">
+
+                <img class="img1" src="img/nextq.jpg" style="width:100%">
+                <div class="text">Ferrari S.p.A</div>
+            </div>
+
+            <div class="mySlides fade">
+
+                <img class="img1" src="img/next2.jpg" style="width:100%">
+                <div class="text">Warehouse</div>
+            </div>
+
+            <div class="mySlides fade">
+
+                <img class="img1" src="img/next5.jpg" style="width:100%">
+                <div class="text">Lamborghini</div>
+            </div>
+
+            <a id="previbu" class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a id="nextbu" class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+
+    <div class="cars">
+        <div class="about">
+            <div class="heading">
+                <h1 class="heading__museum">Our activities</h1>
+            </div>
+            <div class="about__contents">
+                <div class="about__contents-img">
+
+                </div>
+                <!-- <img src="img/galaory1.jpeg" alt="" class="about__contents-img"> -->
+                <div class="about__contents-div">
+                    <span class="about__contents-div-span">Plan your visit</span>
+
+                </div>
+                <div class="about__contents-descritpiton">
+                    A campus tour is a tour of a college or university's campus. Prospective students, their family members and other visitors take campus tours to learn about the college or university's facilities,
+                </div>
+                <div class="buttonme">
+                    <button class="btn-inline">Learn More <span>&rarr;</span></button>
+                </div>
+            </div>
+            <div class="about__contents">
+                <div class="about__contents-img about__contents-img-1">
+
+                </div>
+
+                <div class="about__contents-div">
+                    <span class="about__contents-div-span">Events & programs</span>
+
+                </div>
+                <div class="about__contents-descritpiton">
+                    A campus tour is a tour of a college or university's campus. Prospective students, their family members and other visitors take campus tours to learn about the college or university's facilities,
+
+                </div>
+                <div class="buttonme">
+
+                    <button class="btn-inline">Learn More <span>&rarr;</span></button>
+                </div>
+            </div>
+
+            <div class="about__contents">
+                <div class="about__contents-img about__contents-img-2">
+
+                </div>
+
+                <div class="about__contents-div">
+                    <span class="about__contents-div-span">Explore the collection</span>
+                </div>
+                <div class="about__contents-descritpiton">
+                    A campus tour is a tour of a college or university's campus. Prospective students, their family members and other visitors take campus tours to learn about the college or university's facilities,
+                </div>
+                <div class="buttonme">
+                    <button class="btn-inline">Learn More <span>&rarr;</span></button>
+                </div>
+            </div>
+
+            <div class="about__contents">
+                <div class="about__contents-img about__contents-img-3">
+
+                </div>
+
+                <div class="about__contents-div">
+                    <span class="about__contents-div-span">Kids activity</span>
+                </div>
+                <div class="about__contents-descritpiton">
+                    A campus tour is a tour of a college or university's campus. Prospective students, their family members and other visitors take campus tours to learn about the college or university's facilities,
+                </div>
+
+                <div class="buttonme">
+                    <button class="btn-inline">Learn More <span>&rarr;</span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cartrack">
+        <div class="cartrack_trick">
+            <div class="cartrack_title">
+                Wannt hit the racing tracks??
+            </div>
+            <button class="cartrack_btn1">Explore out tracks</button>
+        </div>
+
+    </div>
+
+    <div class="final">
+        <div class="final__fee">
+            <div class="h1">
+                <div class="img-des">Ticket price for visotors</div>
+                <button class="final__fee__button">By ticket</button>
+            </div>
+
+            <div class="final__content">
+                <div class="final__fee__content final__fee__content--first">Adult ticket $12</div>
+                <div class="final__fee__content">Student ticket $10</div>
+                <div class="final__fee__content">adult ticket $13</div>
+                <div class="final__fee__content">Family ticket $30</div>
+                <div class="final__fee__content">child free</div>
+                <div class="final__fee__content">Senior free</div>
             </div>
         </div>
 
-
-        <!-- //////////next pic sliude starts -->
-        
-      
-            
-
-        <div class="title">
-                <div class="title__slideshow-container">
-
-                <div class="mySlides fade">
-                        
-                        <img class="img1" src="img/nextq.jpg" style="width:100%">
-                        <div class="text">Ferrari S.p.A</div>
-                </div>
-                        
-                <div class="mySlides fade">
-                        
-                        <img class="img1" src="img/next2.jpg" style="width:100%">
-                        <div class="text">Warehouse</div>
-                </div>
-                        
-                <div class="mySlides fade">
-                        
-                        <img class="img1" src="img/next5.jpg" style="width:100%">
-                        <div class="text">Lamborghini</div>
-                </div>
-                        
-                        <a id="previbu" class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                        <a id="nextbu" class="next" onclick="plusSlides(1)">&#10095;</a>
-                        
-                </div>
-                        <br>
-                        
-                <div style="text-align:center">
-                        <span class="dot" onclick="currentSlide(1)"></span> 
-                        <span class="dot" onclick="currentSlide(2)"></span> 
-                        <span class="dot" onclick="currentSlide(3)"></span> 
-                </div>
-        </div>
-        
-        <div class="cars">
-           <div class="about">
-                <div class="heading">
-                        <h1 class="heading__museum">The museum activities</h1>
-                </div>
-                <div class="about__contents">
-                        <div class="about__contents-img">
-
-                        </div>
-                        <!-- <img src="img/galaory1.jpeg" alt="" class="about__contents-img"> -->
-                        <div class="about__contents-div">
-                        <span class="about__contents-div-span">Plan your visit</span>
-
-                        </div>
-                        <div class="about__contents-descritpiton">
-                                A campus tour is a tour of a college or university's campus. Prospective students, their family members and other visitors take campus tours to learn about the college or university's facilities,
-                        </div>
-                        <div class="buttonme">
-                                <button class="btn-inline">Learn More <span>&rarr;</span></button>
-                        </div>
-                </div>
-                <div class="about__contents">
-                        <div class="about__contents-img about__contents-img-1">
-
-                        </div>
-                        
-                        <div class="about__contents-div">
-                                <span class="about__contents-div-span">Events & programs</span>
-
-                        </div>
-                        <div class="about__contents-descritpiton">
-                                A campus tour is a tour of a college or university's campus. Prospective students, their family members and other visitors take campus tours to learn about the college or university's facilities,
-
-                        </div>
-                        <div class="buttonme">
-
-                                <button class="btn-inline">Learn More <span>&rarr;</span></button>
-                        </div>
-                </div>
-                
-                <div class="about__contents">
-                        <div class="about__contents-img about__contents-img-2">
-
-                        </div>
-                        
-                        <div class="about__contents-div">
-                                <span class="about__contents-div-span">Explore the collection</span>
-                        </div>
-                        <div class="about__contents-descritpiton">
-                                A campus tour is a tour of a college or university's campus. Prospective students, their family members and other visitors take campus tours to learn about the college or university's facilities,
-                        </div>
-                        <div class="buttonme">
-                                <button class="btn-inline">Learn More <span>&rarr;</span></button>
-                        </div>
-                </div>
-                        
-                <div class="about__contents">
-                        <div class="about__contents-img about__contents-img-3">
-
-                        </div>
-
-                        <div class="about__contents-div">
-                                <span class="about__contents-div-span">Kids activity</span>
-                        </div>
-                        <div class="about__contents-descritpiton">
-                                A campus tour is a tour of a college or university's campus. Prospective students, their family members and other visitors take campus tours to learn about the college or university's facilities,
-                        </div>
-
-                        <div class="buttonme">
-                                <button class="btn-inline">Learn More <span>&rarr;</span></button>
-                        </div>
-                </div>
-           </div>
+        <div class="final__fee">
+            <div class="h1">
+                <div class="img-des">Track prices</div>
+                <button class="final__fee__button">By ticket</button>
+            </div>
+            <div class="final__content">
+                <div class="final__fee__content final__fee__content--first">Five round 50%</div>
+                <div class="final__fee__content">Five round $50</div>
+                <div class="final__fee__content">Ten rounds $75</div>
+                <div class="final__fee__content">Tem + round $100</div>
+            </div>
         </div>
 
-        <div class="cartrack">
-                <div class="cartrack_trick"></div>
-                <div class="cartrack_title">
-                        Wannt hit the racing tracks??
+        <div class="final__fee">
+            <div class="h1">
+                <img class="img" src="img/time.png">
+
+                <div class="img-des">Opening hours</div>
+            </div>
+            <div class="final__content">
+                <div class="final__fee__content final__fee__content--first flexme final__fee__content-55px">
+                    <div class="">Monday</div>
+                    <div class="">09:00am to 05:00pm</div>
                 </div>
-                <button class="cartrack_btn1">Explore out tracks</button>
+                <div class="final__fee__content flexme final__fee__content-55px">
+                    <div class="">Tuesdat</div>
+                    <div class="">09:00am to 05:00pm</div>
+                </div>
+                <div class="final__fee__content flexme final__fee__px600we">
+                    <div class="">Wednesday</div>
+                    <div class="">09:00am to 05:00pm</div>
+                </div>
+                <div class="final__fee__content flexme final__fee__content-55px">
+                    <div class="">Thursday</div>
+                    <div class="">09:00am to 05:00pm</div>
+                </div>
+            </div>
+
         </div>
+    </div>
 
-        <div class="final">
-                <div class="final__fee">
-                        <div class="h1">
-                                <div class="img-des">Ticket price for visotors</div>
-                                <button class="final__fee__button">By ticket</button>
-                        </div>
-                        
-                        <div class="final__content">
-                                <div class="final__fee__content final__fee__content--first">Adult ticket $12</div>
-                                <div class="final__fee__content">Student ticket $10</div>
-                                <div class="final__fee__content">adult ticket $13</div>
-                                <div class="final__fee__content">Family ticket $30</div>
-                                <div class="final__fee__content">child free</div>
-                                <div class="final__fee__content">Senior free</div>
-                        </div>
-                </div>
+    </div>
+    <footer>
+        <p>Author: Ainiwaer Nueraili<br>
+            <a href="mailto:nuerailiainiwaeer@gmail.com">nuerailiainiwaeer@gmail.com</a></p>
+    </footer>
 
-                <div class="final__fee">
-                        <div class="h1">
-                                <div class="img-des">Track prices</div>
-                                <button class="final__fee__button">By ticket</button>
-                        </div>
-                        <div class="final__content">
-                                <div class="final__fee__content final__fee__content--first">Five round 50%</div>
-                                <div class="final__fee__content">Five round $50</div>
-                                <div class="final__fee__content">Ten rounds $75</div>
-                                <div class="final__fee__content">Tem + round $100</div>
-                        </div>
-                </div>
+    <script src="script.js"></script>
 
-                <div class="final__fee">
-                        <div class="h1">
-                                <img class="img" src="img/time.png">
-                                
-                                <div class="img-des">Opening hours</div>
-                        </div>
-                        <div class="final__content">
-                                <div class="final__fee__content final__fee__content--first flexme final__fee__content-55px">
-                                        <div class="">Monday</div>
-                                        <div class="">09:00am to 05:00pm</div>
-                                </div>
-                                <div class="final__fee__content flexme final__fee__content-55px">
-                                        <div class="">Tuesdat</div>
-                                        <div class="">09:00am to 05:00pm</div>
-                                </div>
-                                <div class="final__fee__content flexme final__fee__px600we">
-                                        <div class="">Wednesday</div>
-                                        <div class="">09:00am to 05:00pm</div>
-                                </div>
-                                <div class="final__fee__content flexme final__fee__content-55px">
-                                        <div class="">Thursday</div>
-                                        <div class="">09:00am to 05:00pm</div>
-                                </div>
-                        </div>
-                
-                </div>
-        </div>
-            
-        </div>
 
-        <script src="script.js"></script>
+</body>
 
-        
-    </body>
 </html>
